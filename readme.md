@@ -29,10 +29,30 @@ Structure of MAP-Net<bar>
 ​         *Example of results with the UNet, PSPNet, ResNet101, HRNetv2 and our proposed method respectively on the WHU dataset. (a) Original image. (b) UNet. (c) PSPNet. (d) ResNet101. (e) HRNetv2. (f) Ours. (g) Ground truth.*  
 
 ## Citation
-
+If this repo is useful in your research, please kindly consider citing our paper as follow.
 ```
+Bibtex
+@article{zhu2019mapnet,
+    title={MAP-Net: Multi Attending Path Neural Network for Building Footprint Extraction from Remote Sensed Imagery},
+    author={Zhu, Qing and Liao, Cheng and Hu, Han and Mei, Xiaoming and Li, Haifeng},
+    journal={arXiv:1910.12060},
+    DOI = {arXiv:1910.12060},
+    year={2019},
+    type = {Journal Article}
+}
 
-
+Endnote
+%0 Journal Article
+%A Zhu, Qing
+%A Liao, Cheng
+%A Hu, Han
+%A Mei, Xiaoming
+%A Haifeng Li
+%D 2019
+%T MAP-Net: Multi Attending Path Neural Network for Building Footprint Extraction from Remote Sensed Imagery
+%B arXiv:1910.12060
+%R https://arxiv.org/abs/1910.12060
+%! MAP-Net: Multi Attending Path Neural Network for Building Footprint Extraction from Remote Sensed Imagery
 
 ```
 
