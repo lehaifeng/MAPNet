@@ -18,7 +18,7 @@ The manuscript can be visited via https://arxiv.org/abs/1910.12060
 Structure of MAP-Net<bar>
 <img src="image/main.png" width="400px" hight="400px" />
 
-​         *Structure of the proposed MAP-Net, which composed of three modules (A) Detail preserved multipath feature extract network; (B) Attention based features adaptive Squeeze and global spatial pooling enhancement module; (C) Up sampling and building footprint extraction module. Conv block is composed of series residual modules to extract features and shared with each path. Gen block generates new parallel path to extract richer semantic features on the basic of Conv block.*  
+​*Structure of the proposed MAP-Net, which composed of three modules (A) Detail preserved multipath feature extract network; (B) Attention based features adaptive Squeeze and global spatial pooling enhancement module; (C) Up sampling and building footprint extraction module. Conv block is composed of series residual modules to extract features and shared with each path. Gen block generates new parallel path to extract richer semantic features on the basic of Conv block.*  
 
 
 
@@ -26,7 +26,7 @@ Structure of MAP-Net<bar>
 
 <img src="image/result.png" width="400px" hight="400px" />
 
-​         *Example of results with the UNet, PSPNet, ResNet101, HRNetv2 and our proposed method respectively on the WHU dataset. (a) Original image. (b) UNet. (c) PSPNet. (d) ResNet101. (e) HRNetv2. (f) Ours. (g) Ground truth.*  
+​*Example of results with the UNet, PSPNet, ResNet101, HRNetv2 and our proposed method respectively on the WHU dataset. (a) Original image. (b) UNet. (c) PSPNet. (d) ResNet101. (e) HRNetv2. (f) Ours. (g) Ground truth.*  
 
 ## Citation
 If this repo is useful in your research, please kindly consider citing our paper as follow.
