@@ -5,12 +5,27 @@ Accurately and efficiently extracting building footprints from a wide range of r
 
 The manuscript can be visited via https://arxiv.org/abs/1910.12060
 
-### Datasets:
+## Datasets:
 
 * [Whu](http://study.rsgis.whu.edu.cn/pages/download/building_dataset.html)
 * [Urban](https://spacenetchallenge.github.io/datasets/Urban_3D_Challenge_summary.html)
 * [Space Net](https://spacenetchallenge.github.io/datasets/spacenetBuildings-V2summary.html)
 
+## The Code
+
+### Requirements:
+* tensorflow
+* keras
+* numpy
+* scipy 
+
+### Usage:
+
+* Clone the repository: ```git clone https://github.com/lehaifeng/MAPNet.git```
+  * Modify the related training and validation dataset paths in load_data.py;
+  * Hyper-parameters configuration and training are implemented in train.py;
+  * The tensorflow implementation  of MAP-Net and other related networks are  in the model folder;
+  * test.py load the trained model and predict the test dataset, and accuracy.py evaluate the pixel-level IoU, precision, recall and F1_score metric.
 
 
 ## MAP-Net
@@ -19,8 +34,6 @@ Structure of MAP-Net<bar>
 <img src="image/main.png" width="400px" hight="400px" />
 
 ​*Structure of the proposed MAP-Net, which composed of three modules (A) Detail preserved multipath feature extract network; (B) Attention based features adaptive Squeeze and global spatial pooling enhancement module; (C) Up sampling and building footprint extraction module. Conv block is composed of series residual modules to extract features and shared with each path. Gen block generates new parallel path to extract richer semantic features on the basic of Conv block.*  
-
-
 
 ## Result
 
