@@ -48,8 +48,8 @@ Bibtex
 @article{zhu2019mapnet,
     title={MAP-Net: Multi Attending Path Neural Network for Building Footprint Extraction from Remote Sensed Imagery},
     author={Zhu, Qing and Liao, Cheng and Hu, Han and Mei, Xiaoming and Li, Haifeng},
-    journal={arXiv:1910.12060},
-    DOI = {arXiv:1910.12060},
+    journal={IEEE Transactions on Geoscience and Remote Sensing},
+    DOI = {10.1109/TGRS.2020.3026051},
     year={2019},
     type = {Journal Article}
 }
@@ -63,8 +63,8 @@ Endnote
 %A Haifeng Li
 %D 2019
 %T MAP-Net: Multi Attending Path Neural Network for Building Footprint Extraction from Remote Sensed Imagery
-%B arXiv:1910.12060
-%R https://arxiv.org/abs/1910.12060
+%B IEEE Transactions on Geoscience and Remote Sensing
+%R 10.1109/TGRS.2020.3026051
 %! MAP-Net: Multi Attending Path Neural Network for Building Footprint Extraction from Remote Sensed Imagery
 
 ```
